@@ -1848,6 +1848,18 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "pycocotools"
+version = "2.0.7"
+description = "Official APIs for the MS-COCO dataset"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+matplotlib = ">=2.1.0"
+numpy = "*"
+
+[[package]]
 name = "pycparser"
 version = "2.21"
 description = "C parser in Python"
@@ -2477,7 +2489,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "e2abf84d563565d3c98a4c8475e3fef8d46b7a780ba8dd1dd4e5a0cd966801f9"
+content-hash = "9b2c858d91e4de12c8f06ddf198755f8638b5ab032d592969ad949d08e0eb4f9"
 
 [metadata.files]
 aiohttp = []
@@ -2591,6 +2603,7 @@ ptyprocess = []
 pure-eval = []
 pyarrow = []
 pyarrow-hotfix = []
+pycocotools = []
 pycparser = []
 pygments = []
 pyparsing = []
