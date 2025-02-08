@@ -1,0 +1,10 @@
+torch 
+torchvision
+datasets
+albumentations
+numpy
+pillow
+matplotlib
+jupyter
+pycocotools
+transformers
